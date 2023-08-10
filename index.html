@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kamal</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .hero{
+            width: 100%;
+            height: 100vh;
+            background-image: url(salu.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        nav{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 15px 6%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        nav ul p{
+           font-size: 60px;
+           text-align: center;
+           color: #fff;
+        }
+        h1{
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%,50%);
+            font-size: 40px;
+            color: transparent;
+            background-image: linear-gradient(#fff,#fff);
+            background-repeat: no-repeat;
+            -webkit-background-clip: text;
+            background-position: -700px 0;
+            animation: backcolor 5s linear infinite alternate;
+        }
+        @keyframes backcolor {
+            100%{
+                background-position: 0 0;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="hero">
+        <nav>
+            <ul>
+                <p>Sayeeda Clinics</p>
+                
+            </ul>
+        </nav>
+        <h1>Dr.Naushad Lari</h1>
+    </div>
+</body>
+</html>
